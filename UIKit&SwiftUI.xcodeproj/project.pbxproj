@@ -16,6 +16,7 @@
 		F072EB7F22B63ABC00473651 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072EB7E22B63ABC00473651 /* Data.swift */; };
 		F072EB8322B63F8700473651 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F072EB8222B63F8700473651 /* CustomCell.xib */; };
 		F072EB8522B6402400473651 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F072EB8422B6402400473651 /* CustomCell.swift */; };
+		F18830E129C131B8006A9153 /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18830E029C131B8006A9153 /* DetailScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		F072EB7E22B63ABC00473651 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		F072EB8222B63F8700473651 /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		F072EB8422B6402400473651 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		F18830E029C131B8006A9153 /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			children = (
 				F072EB6A22B6347800473651 /* AppDelegate.swift */,
 				F072EB6C22B6347800473651 /* SceneDelegate.swift */,
+				F18830E029C131B8006A9153 /* DetailScreen.swift */,
 				F072EBCE22B64D7700473651 /* Courses */,
 				F072EBCC22B64D5300473651 /* Services */,
 				F072EB7322B6347800473651 /* Assets.xcassets */,
@@ -174,6 +177,7 @@
 			files = (
 				F072EB6F22B6347800473651 /* ViewController.swift in Sources */,
 				F072EB7F22B63ABC00473651 /* Data.swift in Sources */,
+				F18830E129C131B8006A9153 /* DetailScreen.swift in Sources */,
 				F072EB8522B6402400473651 /* CustomCell.swift in Sources */,
 				F072EB6B22B6347800473651 /* AppDelegate.swift in Sources */,
 				F072EB6D22B6347800473651 /* SceneDelegate.swift in Sources */,

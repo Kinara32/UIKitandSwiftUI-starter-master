@@ -10,6 +10,7 @@ struct Post {
     var image: UIImage
     var text: String
     var descriprion: String
+    static let data = Post.fetchPosts()
     
     static func fetchPosts() -> [Post] {
         return [Post(image: #imageLiteral(resourceName: "10"), text: "Networking", descriprion: "Работая с любыми внешними данными будь то обновление данных о погоде, стриминг музыки или просто серфинг в браузере, ваше приложение использует сетевые запросы HTTP. Именно они отвечают за все, что связанно с внешним миром."),

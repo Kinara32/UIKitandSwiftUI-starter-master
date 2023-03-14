@@ -34,6 +34,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 120
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let detailScreen = DetailScreen(object: posts[indexPath.row])
+        let host = UIHostingController(rootView: detailScreen)
+        navigationController?.pushViewController(host, animated: true)
+    }
 }
 
 
